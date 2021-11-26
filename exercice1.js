@@ -12,10 +12,10 @@ let articles = [
 
 // Votre code à partir d'ici :
 
-let listeCourse = document.getElementById("listeCourse")
+let listeCourse = document.getElementById("listeCourse");
 let liste = document.createElement('li');
 articles.push("Chocolat", "Coca-Cola")
-liste.innerHTML = articles ;
+liste.innerHTML = articles , '<\br>';
 listeCourse.appendChild(liste);
 
 let button = document.getElementById("button1");
